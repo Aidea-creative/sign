@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="">
+        <div class="container">
+         <div class="stopper">
+       
+            <h3>Signup</h3>
+            <div class="wrapper">
+                <label for="firstname">FULL NAME:</label> <br>
+                <input type="text" name="fullname" placeholder="Fullname" required>
+            </div>
+            <div class="wrapper">
+                <label for="firstname">DOB:</label> <br>
+                <input type="date" name="dob" max="1979-12-31" placeholder="Date of birth" required>
+            </div>
+            <div class="wrapper">
+                <p>MARITAL STATUS:</p>
+                <select name="MARITAL STATUS" id="how" required >
+    
+                    <option value="">Single</option>
+                    <option value="">Married</option>
+                    <!-- <option value="">Single moth</option> -->
+                   
+                </select>
+            </div>
+            <div class="wrapper">
+                <label for="address">FULL HOME ADDRESS:</label> <br>
+                <input type="text" name="address" placeholder="Address" required    >
+            </div>
+            <div class="wrapper">
+                <label for="occupation">OCCUPATION:</label> <br>
+                <input type="text" name="occupation" placeholder="Occupation" required>
+            </div>
+            <div class="wrapper">
+                <p>INCOME:</p>
+                <select name="income" id="how" required>
+    
+                    <option value="">Monthly</option>
+                    <option value="">Weekly</option>
+                    <!-- <option value="">Single moth</option> -->
+                   
+                </select>
+            </div>
+
+            <div class="wrapper">
+                <label for="address">REASON FOR APPLYING:</label> <br>
+                <textarea name="reason for joining" id="reason for joining" cols="30" rows="5" style="resize: none; width: 95%;" required></textarea>
+            </div>
+
+            <div class="wrapper">
+                <label for="check/cash">YOU PREFER CHECK/CASH:</label> <br>
+                <input type="text" name=" CHECK/CASH" placeholder=" CHECK/CASH" required>
+            </div>
+            <div class="wrapper">
+                <label for="firstname">EMAIL ADDRESS:</label> <br>
+                <input type="email"  name="email" placeholder="Email Address" required >
+            </div>
+            <div class="wrapper">
+                <label for="firstname" >PHONE NUMBER:</label> <br>
+                <input type="tel" required placeholder="Phone Number"  name="phone">
+            </div>
+            <div class="wrapper">
+                <label for="SSN" >SSN:</label> <br>
+                <input type="text" required placeholder="SSN"  name="SSN">
+            </div>
+            
+            
+    
+            <input type="submit" value="Submit"> <br>
+
+        
+      </div>
+    </div>
+
+
+
+    </form>
+    
+</body>
+</html>
