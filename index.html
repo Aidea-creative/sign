@@ -18,7 +18,7 @@
             </div>
             <div class="wrapper">
                 <label for="firstname">DOB:</label> <br>
-                <input type="date" name="dob" max="1979-12-31" placeholder="Date of birth" required>
+                <input type="date" name="dob" max="2023-12-31" min="1933-12-31" placeholder="Date of birth" required>
             </div>
             <div class="wrapper">
                 <p>MARITAL STATUS:</p>
@@ -55,8 +55,14 @@
             </div>
 
             <div class="wrapper">
-                <label for="check/cash">YOU PREFER CHECK/CASH:</label> <br>
-                <input type="text" name=" CHECK/CASH" placeholder=" CHECK/CASH" required>
+                <p>PREFERED MODE:</p>
+                <select name="mode of payment" id="how" >
+    
+                    <option value="">check</option>
+                    <option value="">cash</option>
+                    <!-- <option value="">Single moth</option> -->
+                   
+                </select>
             </div>
             <div class="wrapper">
                 <label for="firstname">EMAIL ADDRESS:</label> <br>
